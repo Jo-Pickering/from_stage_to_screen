@@ -67,9 +67,6 @@ img.blogscreenshot {
   width: 50%;
 }
 
-figcaption.withscreenshot {
-}
-
 img.blogscreenshot,
 figcaption.withscreenshot {
   display: inline-block;
