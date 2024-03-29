@@ -52,8 +52,8 @@ main {
 }
 
 .sidebar {
-  position: sticky;
-  height: 600px;
+  min-width: fit-content;
+  height: auto;
   background-color: #76b39d;
   border-radius: 20px;
   grid-column: 1 / 2;
