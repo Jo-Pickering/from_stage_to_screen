@@ -1,0 +1,9 @@
+.screenshots {
+  display: flex;
+  height: auto;
+}
+
+.mobilescreenshot {
+  height: 50%;
+  width: auto;
+}
