@@ -79,6 +79,7 @@ section {
   border: 2px #702283 solid;
   border-radius: 15px;
   background-color: white;
+  text-align: left;
 }
 
 /*Website Text Styling Conventions*/
