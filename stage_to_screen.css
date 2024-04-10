@@ -63,3 +63,12 @@ main {
     align-items: center;
   }
 }
+
+/*JavaScript Classes*/
+.hide {
+  display: none;
+}
+
+h4:hover {
+  cursor: pointer;
+}
