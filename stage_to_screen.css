@@ -47,3 +47,19 @@ main {
   padding-bottom: 1rem;
   color: purple;
 }
+
+/*Media*/
+
+.screenshots {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+/*Responsive Site Please*/
+@media only screen and (min-width: 1000px) {
+  .screenshots {
+    flex-direction: row;
+    align-items: center;
+  }
+}

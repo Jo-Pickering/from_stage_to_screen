@@ -155,7 +155,7 @@ figcaption {
 }
 
 .internal_link:visited {
-  color: #76b39d;
+  color: purple;
 }
 
 .internal_link:hover {
@@ -217,15 +217,9 @@ figcaption {
 
 /*Media*/
 
-.screenshots {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-}
-
 img {
   max-height: auto;
-  max-width: 250px;
+  max-width: 90%;
 }
 
 /*Style override classes*/
