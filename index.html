@@ -4,8 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>From Stage to Screen</title>
-    <link href="./global_css.css" type="text/css" rel="stylesheet" />
-    <link href="./stage_to_screen.css" type="text/css" rel="stylesheet" />
+    <link
+      href="./resources/css/global_css.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <link
+      href="./resources/css/blog/stage_to_screen.css"
+      type="text/css"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,14 +26,14 @@
       href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap"
       rel="stylesheet"
     />
-    <script defer src="./interact.js" rel="text/JavaScript"></script>
+    <script defer type="module" src="./resources/js/index.js"></script>
   </head>
   <body>
     <header>
       <h1>Jo Pickering</h1>
       <nav class="site-nav">
         <ul>
-          <li><a href="X" class="internal_link">About</a></li>
+          <li><a href="./about/index.html" class="internal_link">About</a></li>
           <li>
             <a
               href="https://jo-pickering.github.io/from_stage_to_screen/"
@@ -118,7 +126,7 @@
       </section>
       <br />
 
-      <section class="blog-posts">
+      <section class="posts">
         <!--
         <article class="container" id="week16">
           <h4 class="blog-week-title">Week #</h4>
@@ -198,8 +206,8 @@
         </article>
         <br>-->
         <article class="container" id="week5">
-          <h4 class="blog-week-title">Week 5</h4>
-          <div class="blog-content" id="week-5">
+          <h4 class="week-title">Week 5</h4>
+          <div class="blog-content hide" id="week-5">
             <p>
               I’m a little lost with what to say this week. It’s been… eventful.
             </p>
@@ -325,7 +333,7 @@
               <figure>
                 <img
                   class="blogscreenshot"
-                  src="./resources/milliways_trello_board.png"
+                  src="./resources/imgs/milliways_trello_board.png"
                   alt="A preview of our project Trello board."
                 />
                 <figcaption class="withscreenshot">
@@ -337,7 +345,7 @@
               <figure>
                 <img
                   class="blogscreenshot"
-                  src="./resources/milliways_trello_card.png"
+                  src="./resources/imgs/milliways_trello_card.png"
                   alt="An example Trello card with checklist and colour coding"
                 />
                 <figcaption class="withscreenshot">
@@ -350,7 +358,7 @@
         </article>
         <br />
         <article class="container" id="week4">
-          <h4 class="blog-week-title">Week 4</h4>
+          <h4 class="week-title">Week 4</h4>
           <div class="hide" id="week-4">
             <p>
               After a frustrating end of last week and start of this week,
@@ -475,7 +483,7 @@
               <figure>
                 <img
                   class="blogscreenshot"
-                  src="./resources/blog_desktop_w4_top.png"
+                  src="./resources/imgs/blog_desktop_w4_top.png"
                   alt="How the top of this page looks this week with the new changes."
                 />
                 <figcaption class="withscreenshot">
@@ -487,7 +495,7 @@
               <figure>
                 <img
                   class="blogscreenshot"
-                  src="./resources/blog_desktop_w4_bottom.png"
+                  src="./resources/imgs/blog_desktop_w4_bottom.png"
                   alt="How the bottom of this page looks this week with each blog post collapsed"
                 />
                 <figcaption class="withscreenshot">
@@ -499,7 +507,7 @@
               <figure>
                 <img
                   class="mobilescreenshot"
-                  src="./resources/mobile_top_w4.png"
+                  src="./resources/imgs/mobile_top_w4.png"
                   alt="The top of this website shown on a mobile screen after the week 4 changes."
                 />
                 <figcaption class="withscreenshot">
@@ -511,7 +519,7 @@
               <figure>
                 <img
                   class="mobilescreenshot"
-                  src="./resources/mobile_bottom_w4.png"
+                  src="./resources/imgs/mobile_bottom_w4.png"
                   alt="The bottom of this website shown on a mobile screen after the week 4 changes."
                 />
                 <figcaption class="withscreenshot">
@@ -524,7 +532,7 @@
         </article>
         <br />
         <article class="container" id="week3">
-          <h4 class="blog-week-title">Week 3</h4>
+          <h4 class="week-title">Week 3</h4>
           <div class="hide" id="week-3">
             <p>
               This week has seen the introduction of JavaScript to our
@@ -645,7 +653,7 @@
         <br />
 
         <article class="container" id="week2">
-          <h4 class="blog-week-title">Week 2</h4>
+          <h4 class="week-title">Week 2</h4>
           <div class="hide" id="week-2">
             <p>
               I’m not quite sure how I made it through this week but I can tell
@@ -735,7 +743,7 @@
               <figure>
                 <img
                   class="blogscreenshot"
-                  src="./resources/week2.png"
+                  src="./resources/imgs/week2.png"
                   alt="A website with more styling conventions including colour and font schemes as well as global layout formats."
                 />
                 <figcaption class="withscreenshot">
@@ -746,7 +754,7 @@
               <figure>
                 <img
                   class="mobilescreenshot"
-                  src="./resources/week2_mobile.png"
+                  src="./resources/imgs/week2_mobile.png"
                   alt="A website shown on a mobile screen."
                 />
                 <figcaption class="withscreenshot">
@@ -761,7 +769,7 @@
         <br />
 
         <article class="container" id="week1">
-          <h4 class="blog-week-title">Week 1</h4>
+          <h4 class="week-title">Week 1</h4>
           <div class="hide" id="week-1">
             <p>
               So, I’ll move onto the first week! Not only have we covered four
@@ -880,7 +888,7 @@
               <figure>
                 <img
                   class="blogscreenshot"
-                  src="./resources/blog_v1.png"
+                  src="./resources/imgs/blog_v1.png"
                   alt="A very basic website with
               rough spaces laid out ready for weekly blog submissions."
                 />

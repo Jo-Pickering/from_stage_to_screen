@@ -157,8 +157,12 @@ figcaption {
   color: purple;
 }
 
+.site-nav .internal_link:visited {
+  color: #76b39d;
+}
+
 .internal_link:hover {
-  background-color: #fdb44b;
+  background-color: #fdb44b80;
   border-radius: 5px;
   padding: 0.5rem;
 }

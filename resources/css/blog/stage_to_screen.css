@@ -23,6 +23,11 @@ main {
   flex-wrap: wrap;
 }
 
+.page-navigation li {
+  width: 25%;
+  line-height: 1.5rem;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -41,7 +46,7 @@ main {
   text-align: center;
 }
 
-.blog-week-title {
+.week-title {
   font-size: 2rem;
   font-weight: bold;
   padding-bottom: 1rem;

@@ -1,0 +1,21 @@
+main {
+  height: 26rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  main {
+    height: 22rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  main {
+    height: 30rem;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  main {
+    height: 63rem;
+  }
+}
